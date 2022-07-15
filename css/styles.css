@@ -1,17 +1,15 @@
-.top-website {
-background-color: #1F2937;
-}
+/* Ensures that the entire page is filled with content*/
+
+body, html{
+    margin:0;
+    padding:0;
+  }
+
+/*General purposed styling for the entire page*/
 
 h1 {
     font-size: 48px;
     color: #F9FAF8;
-}
-
-.link,
-.secondary-text,
-button {
-    color: #E5E7EB;
-    font-size: 18px;
 }
 
 ul {
@@ -20,6 +18,13 @@ ul {
     gap: 20px;
     align-items: center;
     margin-right: 10%;
+}
+
+.link,
+.secondary-text,
+button {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 button {
@@ -31,12 +36,18 @@ button {
     border-color: #3882F6;
 }
 
+
+/*Styling for the top part of the page*/
+
+.top-website {
+background-color: #1F2937;
+}
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 
 .logo {
     color: #F9FAF8;
@@ -70,11 +81,108 @@ button {
 
 }
 
-body, html{
-    margin:0;
-    padding:0;
-  }
-
-  .secondary-text {
+.secondary-text {
     margin-top: -6%;
-  }
+}
+
+
+/* Styling for the 2nd layer of the page */
+
+.info-container h2 {
+    text-align: center;
+}
+
+  .info-row {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+p.image {
+    border: solid;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border-radius: 10px;
+    border-color: #3882F6;
+    width: 30%;
+    margin-left: 40%;
+    text-align: center;
+}
+
+p.image-subtext {
+    width: 30%;
+    text-align: center;
+    margin-left: 40%;
+    margin-bottom: 15%;
+}
+
+/* Styling for the 3rd layer of the page */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 5% 20% 5% 20%;
+}
+
+.quote-text {
+    margin-left: 10%;
+    font-size: 36px;
+    color: #1F2937;
+    width: 83%;
+}
+
+.quote-author {
+    margin-left: 75%;
+}
+
+/* Styling for the 4th layer of the page */
+
+.action {
+    margin-left: 15%;
+    margin-top: 5%;    
+    margin-bottom: 5%;
+}
+
+.action-container {
+    background-color: #3882F6;
+    display: flex;
+    width: 65%;
+    border: #3882F6;
+    border-radius: 7px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+p.action-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 7%;
+}
+
+.action-button {
+    border: #E5E7EB;
+    border: solid;
+    width: 130%;
+    border-radius: 7px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-top: 50%;
+}
+
+.footer {
+    margin-top: 5%;
+    text-align: center;
+    padding-bottom: 1%;
+    background-color: #1F2937;
+    padding-top: 1%;
+}
+
+.footer-text {
+    color: #E5E7EB;
+}
